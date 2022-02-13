@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{88408093-81AD-4811-919D-F5C857C4DF48}">
+	<Configurations>
+		<Configuration Name="Debug|Win32" CommandArguments="$(TargetPath)"/>
+		<Configuration Name="Debug|x64" CommandArguments="$(TargetPath)"/>
+		<Configuration Name="Release|Win32" Command="C:\Program Files\Microsoft HPC Pack 2012\Bin\mpiexec.exe" CommandArguments="-n 4 &quot;$(TargetPath)&quot;"/>
+		<Configuration Name="Release|x64" Command="C:\Program Files\Microsoft HPC Pack 2012\Bin\mpiexec.exe" CommandArguments="-n 4 &quot;$(TargetPath)&quot;"/></Configurations></VisualStudioUserFile>
